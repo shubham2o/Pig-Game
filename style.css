@@ -59,28 +59,47 @@ main {
 .score {
   font-size: 8rem;
   font-weight: 300;
-  color: #c7365f;
+  color: white;
   margin-bottom: auto;
 }
 
 .player--active {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: #d11d53;
+  border: 1px solid yellow;
 }
+
 .player--active .name {
-  font-weight: 700;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-shadow: 1px 1px black;
+  color: white;
 }
+
 .player--active .score {
   font-weight: 400;
+  color: yellow;
+}
+
+.player--active .current-label {
+  color : black;
+  font-size: 24px;
+  letter-spacing: 3px;
+  font-weight: bold;
 }
 
 .player--active .current {
   opacity: 1;
+  border: 2px solid black;
+  background-color: yellow;
+  color: #d11d53;
+  font-weight: bold;
 }
 
 .current {
   background-color: #c7365f;
   opacity: 0.8;
   border-radius: 9px;
+  border : 1px solid white;
   color: #fff;
   width: 65%;
   padding: 2rem;

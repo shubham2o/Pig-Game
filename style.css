@@ -181,7 +181,7 @@ main {
 
 .player--winner .name {
   font-weight: 700;
-  text-shadow: 3px 3px white;
+  text-shadow: 4px 4px white;
 }
 
 .player--winner .score {
